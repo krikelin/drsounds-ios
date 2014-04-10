@@ -86,7 +86,15 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     // Fix this
     DRRelease *release = [self.items objectAtIndex:indexPath.row];
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:[release url]]];
+    NSURL *url = [NSURL URLWithString:[release url]];
+    
+    UIApplication *sharedApplication = [UIApplication sharedApplication];
+    if ([sharedApplication canOpenURL:url]) {
+        [[UIApplication sharedApplication] openURL:url];
+    } else {
+        UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Can't open link" message:@"You need Spotify to open the album" delegate:self cancelButtonTitle:@"Dismiss" otherButtonTitles:nil];
+        [alertView show];
+    }
 }
 
 /*

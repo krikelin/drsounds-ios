@@ -39,7 +39,15 @@
 }
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
     DRFeature *feature = (DRFeature *)[self.items objectAtIndex:indexPath.item];
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:[feature url]]];
+    NSURL *url = [NSURL URLWithString:[feature url]];
+    
+    UIApplication *sharedApplication = [UIApplication sharedApplication];
+    if ([sharedApplication canOpenURL:url]) {
+        [[UIApplication sharedApplication] openURL:url];
+    } else {
+        UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Can't open link" message:@"You need Spotify to open the album" delegate:self cancelButtonTitle:@"Dismiss" otherButtonTitles:nil];
+        [alertView show];
+    }
 
 }
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {

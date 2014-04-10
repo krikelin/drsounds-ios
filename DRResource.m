@@ -12,12 +12,14 @@
 @synthesize url;
 @synthesize identifier;
 @synthesize name;
+@synthesize imageURL;
 - (id)initWithJSON:(NSDictionary *)json {
     self = [super init];
     if (self) {
         [self setIdentifier:[json objectForKey:@"id"]];
         [self setName:[json objectForKey:@"name"]];
         [self setUrl:[json objectForKey:@"url"]];
+        [self setImageURL:[json objectForKey:@"image_url"]];
     }
     return self;
 }

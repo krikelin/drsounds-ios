@@ -12,5 +12,6 @@
 @property NSString *name;
 @property NSString *url;
 @property NSString *identifier;
+@property NSString *imageURL;
 - (id)initWithJSON:(NSDictionary *)json;
 @end
