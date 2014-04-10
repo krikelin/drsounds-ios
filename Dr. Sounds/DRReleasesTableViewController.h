@@ -1,5 +1,5 @@
 //
-//  DRFirstViewController.h
+//  DRReleaseTableViewController.h
 //  Dr. Sounds
 //
 //  Created by Alecca on 2014-04-10.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import "DRDataSource.h"
-@interface DRFirstViewController : UIViewController <UICollectionViewDataSource, UICollectionViewDelegate>
-@property (weak, nonatomic) IBOutlet UICollectionView *featuredCollectionView;
+@interface DRReleasesTableViewController : UITableViewController
 @property NSMutableArray *items;
 @property DRDataSource *dataSource;
+@property DRGenre *genre;
 @end
