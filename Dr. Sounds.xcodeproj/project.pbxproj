@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50E86FC718F6DCB600BD1385 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50E86FC618F6DCB500BD1385 /* Foundation.framework */; };
+		50E86FC918F6DCB600BD1385 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50E86FC818F6DCB600BD1385 /* CoreGraphics.framework */; };
+		50E86FCB18F6DCB600BD1385 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50E86FCA18F6DCB600BD1385 /* UIKit.framework */; };
+		50E86FD118F6DCB600BD1385 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50E86FCF18F6DCB600BD1385 /* InfoPlist.strings */; };
+		50E86FD318F6DCB600BD1385 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E86FD218F6DCB600BD1385 /* main.m */; };
+		50E86FD718F6DCB600BD1385 /* DRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E86FD618F6DCB600BD1385 /* DRAppDelegate.m */; };
+		50E86FDA18F6DCB600BD1385 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50E86FD818F6DCB600BD1385 /* Main.storyboard */; };
+		50E86FDD18F6DCB600BD1385 /* DRFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E86FDC18F6DCB600BD1385 /* DRFirstViewController.m */; };
+		50E86FE018F6DCB600BD1385 /* DRSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E86FDF18F6DCB600BD1385 /* DRSecondViewController.m */; };
+		50E86FE218F6DCB600BD1385 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50E86FE118F6DCB600BD1385 /* Images.xcassets */; };
+		50E86FE918F6DCB600BD1385 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50E86FE818F6DCB600BD1385 /* XCTest.framework */; };
+		50E86FEA18F6DCB600BD1385 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50E86FC618F6DCB500BD1385 /* Foundation.framework */; };
+		50E86FEB18F6DCB600BD1385 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50E86FCA18F6DCB600BD1385 /* UIKit.framework */; };
+		50E86FF318F6DCB600BD1385 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50E86FF118F6DCB600BD1385 /* InfoPlist.strings */; };
+		50E86FF518F6DCB600BD1385 /* Dr__SoundsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E86FF418F6DCB600BD1385 /* Dr__SoundsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50E86FEC18F6DCB600BD1385 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50E86FBB18F6DCB500BD1385 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50E86FC218F6DCB500BD1385;
+			remoteInfo = "Dr. Sounds";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		50E86FC318F6DCB500BD1385 /* Dr. Sounds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dr. Sounds.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50E86FC618F6DCB500BD1385 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		50E86FC818F6DCB600BD1385 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		50E86FCA18F6DCB600BD1385 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		50E86FCE18F6DCB600BD1385 /* Dr. Sounds-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Dr. Sounds-Info.plist"; sourceTree = "<group>"; };
+		50E86FD018F6DCB600BD1385 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		50E86FD218F6DCB600BD1385 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		50E86FD418F6DCB600BD1385 /* Dr. Sounds-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Dr. Sounds-Prefix.pch"; sourceTree = "<group>"; };
+		50E86FD518F6DCB600BD1385 /* DRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRAppDelegate.h; sourceTree = "<group>"; };
+		50E86FD618F6DCB600BD1385 /* DRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRAppDelegate.m; sourceTree = "<group>"; };
+		50E86FD918F6DCB600BD1385 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50E86FDB18F6DCB600BD1385 /* DRFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRFirstViewController.h; sourceTree = "<group>"; };
+		50E86FDC18F6DCB600BD1385 /* DRFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRFirstViewController.m; sourceTree = "<group>"; };
+		50E86FDE18F6DCB600BD1385 /* DRSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRSecondViewController.h; sourceTree = "<group>"; };
+		50E86FDF18F6DCB600BD1385 /* DRSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRSecondViewController.m; sourceTree = "<group>"; };
+		50E86FE118F6DCB600BD1385 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		50E86FE718F6DCB600BD1385 /* Dr. SoundsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dr. SoundsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50E86FE818F6DCB600BD1385 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		50E86FF018F6DCB600BD1385 /* Dr. SoundsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Dr. SoundsTests-Info.plist"; sourceTree = "<group>"; };
+		50E86FF218F6DCB600BD1385 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		50E86FF418F6DCB600BD1385 /* Dr__SoundsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dr__SoundsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50E86FC018F6DCB500BD1385 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50E86FC918F6DCB600BD1385 /* CoreGraphics.framework in Frameworks */,
+				50E86FCB18F6DCB600BD1385 /* UIKit.framework in Frameworks */,
+				50E86FC718F6DCB600BD1385 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50E86FE418F6DCB600BD1385 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50E86FE918F6DCB600BD1385 /* XCTest.framework in Frameworks */,
+				50E86FEB18F6DCB600BD1385 /* UIKit.framework in Frameworks */,
+				50E86FEA18F6DCB600BD1385 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50E86FBA18F6DCB500BD1385 = {
+			isa = PBXGroup;
+			children = (
+				50E86FCC18F6DCB600BD1385 /* Dr. Sounds */,
+				50E86FEE18F6DCB600BD1385 /* Dr. SoundsTests */,
+				50E86FC518F6DCB500BD1385 /* Frameworks */,
+				50E86FC418F6DCB500BD1385 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50E86FC418F6DCB500BD1385 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50E86FC318F6DCB500BD1385 /* Dr. Sounds.app */,
+				50E86FE718F6DCB600BD1385 /* Dr. SoundsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50E86FC518F6DCB500BD1385 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50E86FC618F6DCB500BD1385 /* Foundation.framework */,
+				50E86FC818F6DCB600BD1385 /* CoreGraphics.framework */,
+				50E86FCA18F6DCB600BD1385 /* UIKit.framework */,
+				50E86FE818F6DCB600BD1385 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		50E86FCC18F6DCB600BD1385 /* Dr. Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				50E86FD518F6DCB600BD1385 /* DRAppDelegate.h */,
+				50E86FD618F6DCB600BD1385 /* DRAppDelegate.m */,
+				50E86FD818F6DCB600BD1385 /* Main.storyboard */,
+				50E86FDB18F6DCB600BD1385 /* DRFirstViewController.h */,
+				50E86FDC18F6DCB600BD1385 /* DRFirstViewController.m */,
+				50E86FDE18F6DCB600BD1385 /* DRSecondViewController.h */,
+				50E86FDF18F6DCB600BD1385 /* DRSecondViewController.m */,
+				50E86FE118F6DCB600BD1385 /* Images.xcassets */,
+				50E86FCD18F6DCB600BD1385 /* Supporting Files */,
+			);
+			path = "Dr. Sounds";
+			sourceTree = "<group>";
+		};
+		50E86FCD18F6DCB600BD1385 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50E86FCE18F6DCB600BD1385 /* Dr. Sounds-Info.plist */,
+				50E86FCF18F6DCB600BD1385 /* InfoPlist.strings */,
+				50E86FD218F6DCB600BD1385 /* main.m */,
+				50E86FD418F6DCB600BD1385 /* Dr. Sounds-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		50E86FEE18F6DCB600BD1385 /* Dr. SoundsTests */ = {
+			isa = PBXGroup;
+			children = (
+				50E86FF418F6DCB600BD1385 /* Dr__SoundsTests.m */,
+				50E86FEF18F6DCB600BD1385 /* Supporting Files */,
+			);
+			path = "Dr. SoundsTests";
+			sourceTree = "<group>";
+		};
+		50E86FEF18F6DCB600BD1385 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50E86FF018F6DCB600BD1385 /* Dr. SoundsTests-Info.plist */,
+				50E86FF118F6DCB600BD1385 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50E86FC218F6DCB500BD1385 /* Dr. Sounds */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50E86FF818F6DCB600BD1385 /* Build configuration list for PBXNativeTarget "Dr. Sounds" */;
+			buildPhases = (
+				50E86FBF18F6DCB500BD1385 /* Sources */,
+				50E86FC018F6DCB500BD1385 /* Frameworks */,
+				50E86FC118F6DCB500BD1385 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dr. Sounds";
+			productName = "Dr. Sounds";
+			productReference = 50E86FC318F6DCB500BD1385 /* Dr. Sounds.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50E86FE618F6DCB600BD1385 /* Dr. SoundsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50E86FFB18F6DCB600BD1385 /* Build configuration list for PBXNativeTarget "Dr. SoundsTests" */;
+			buildPhases = (
+				50E86FE318F6DCB600BD1385 /* Sources */,
+				50E86FE418F6DCB600BD1385 /* Frameworks */,
+				50E86FE518F6DCB600BD1385 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50E86FED18F6DCB600BD1385 /* PBXTargetDependency */,
+			);
+			name = "Dr. SoundsTests";
+			productName = "Dr. SoundsTests";
+			productReference = 50E86FE718F6DCB600BD1385 /* Dr. SoundsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50E86FBB18F6DCB500BD1385 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DR;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Alexander Forselius";
+				TargetAttributes = {
+					50E86FE618F6DCB600BD1385 = {
+						TestTargetID = 50E86FC218F6DCB500BD1385;
+					};
+				};
+			};
+			buildConfigurationList = 50E86FBE18F6DCB500BD1385 /* Build configuration list for PBXProject "Dr. Sounds" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50E86FBA18F6DCB500BD1385;
+			productRefGroup = 50E86FC418F6DCB500BD1385 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50E86FC218F6DCB500BD1385 /* Dr. Sounds */,
+				50E86FE618F6DCB600BD1385 /* Dr. SoundsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50E86FC118F6DCB500BD1385 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50E86FE218F6DCB600BD1385 /* Images.xcassets in Resources */,
+				50E86FD118F6DCB600BD1385 /* InfoPlist.strings in Resources */,
+				50E86FDA18F6DCB600BD1385 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50E86FE518F6DCB600BD1385 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50E86FF318F6DCB600BD1385 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50E86FBF18F6DCB500BD1385 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50E86FE018F6DCB600BD1385 /* DRSecondViewController.m in Sources */,
+				50E86FD718F6DCB600BD1385 /* DRAppDelegate.m in Sources */,
+				50E86FDD18F6DCB600BD1385 /* DRFirstViewController.m in Sources */,
+				50E86FD318F6DCB600BD1385 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50E86FE318F6DCB600BD1385 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50E86FF518F6DCB600BD1385 /* Dr__SoundsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50E86FED18F6DCB600BD1385 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50E86FC218F6DCB500BD1385 /* Dr. Sounds */;
+			targetProxy = 50E86FEC18F6DCB600BD1385 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		50E86FCF18F6DCB600BD1385 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50E86FD018F6DCB600BD1385 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		50E86FD818F6DCB600BD1385 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50E86FD918F6DCB600BD1385 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		50E86FF118F6DCB600BD1385 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50E86FF218F6DCB600BD1385 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50E86FF618F6DCB600BD1385 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		50E86FF718F6DCB600BD1385 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50E86FF918F6DCB600BD1385 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dr. Sounds/Dr. Sounds-Prefix.pch";
+				INFOPLIST_FILE = "Dr. Sounds/Dr. Sounds-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		50E86FFA18F6DCB600BD1385 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dr. Sounds/Dr. Sounds-Prefix.pch";
+				INFOPLIST_FILE = "Dr. Sounds/Dr. Sounds-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		50E86FFC18F6DCB600BD1385 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Dr. Sounds.app/Dr. Sounds";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dr. Sounds/Dr. Sounds-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Dr. SoundsTests/Dr. SoundsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		50E86FFD18F6DCB600BD1385 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Dr. Sounds.app/Dr. Sounds";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dr. Sounds/Dr. Sounds-Prefix.pch";
+				INFOPLIST_FILE = "Dr. SoundsTests/Dr. SoundsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50E86FBE18F6DCB500BD1385 /* Build configuration list for PBXProject "Dr. Sounds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50E86FF618F6DCB600BD1385 /* Debug */,
+				50E86FF718F6DCB600BD1385 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50E86FF818F6DCB600BD1385 /* Build configuration list for PBXNativeTarget "Dr. Sounds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50E86FF918F6DCB600BD1385 /* Debug */,
+				50E86FFA18F6DCB600BD1385 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		50E86FFB18F6DCB600BD1385 /* Build configuration list for PBXNativeTarget "Dr. SoundsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50E86FFC18F6DCB600BD1385 /* Debug */,
+				50E86FFD18F6DCB600BD1385 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50E86FBB18F6DCB500BD1385 /* Project object */;
+}
