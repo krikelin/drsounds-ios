@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		410FB44E5A1F4B7995408F7D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C7548AA3107405784584EA7 /* libPods.a */; };
+		500CE64318F806D7000EFF8F /* DRPlaylistsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 500CE64218F806D7000EFF8F /* DRPlaylistsTableViewController.m */; };
+		500CE64618F806EC000EFF8F /* DRPlaylist.m in Sources */ = {isa = PBXBuildFile; fileRef = 500CE64518F806EC000EFF8F /* DRPlaylist.m */; };
+		500CE64718F806EC000EFF8F /* DRPlaylist.m in Sources */ = {isa = PBXBuildFile; fileRef = 500CE64518F806EC000EFF8F /* DRPlaylist.m */; };
 		50134D0918F735650071C9C1 /* DRReleasesFlowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50134D0818F735650071C9C1 /* DRReleasesFlowViewController.m */; };
 		5086580518F721FA00FA20E4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5086580418F721FA00FA20E4 /* Images.xcassets */; };
 		5086582318F7291400FA20E4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5086580818F7291300FA20E4 /* Default-568h@2x.png */; };
@@ -80,6 +83,10 @@
 /* Begin PBXFileReference section */
 		1C7548AA3107405784584EA7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		4416DD68EAD1471EA156C048 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		500CE64118F806D7000EFF8F /* DRPlaylistsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRPlaylistsTableViewController.h; sourceTree = "<group>"; };
+		500CE64218F806D7000EFF8F /* DRPlaylistsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRPlaylistsTableViewController.m; sourceTree = "<group>"; };
+		500CE64418F806EC000EFF8F /* DRPlaylist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRPlaylist.h; sourceTree = "<group>"; };
+		500CE64518F806EC000EFF8F /* DRPlaylist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRPlaylist.m; sourceTree = "<group>"; };
 		50134D0718F735650071C9C1 /* DRReleasesFlowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRReleasesFlowViewController.h; sourceTree = "<group>"; };
 		50134D0818F735650071C9C1 /* DRReleasesFlowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRReleasesFlowViewController.m; sourceTree = "<group>"; };
 		5086580418F721FA00FA20E4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -224,6 +231,8 @@
 		50E86FBA18F6DCB500BD1385 = {
 			isa = PBXGroup;
 			children = (
+				500CE64418F806EC000EFF8F /* DRPlaylist.h */,
+				500CE64518F806EC000EFF8F /* DRPlaylist.m */,
 				5086580618F7285F00FA20E4 /* Icon-120.png */,
 				50E8702118F7175A00BD1385 /* DRFeature.h */,
 				50E8702218F7175A00BD1385 /* DRFeature.m */,
@@ -290,6 +299,8 @@
 				50E8701518F70BB400BD1385 /* DRGenresTableViewController.h */,
 				50E8701618F70BB400BD1385 /* DRGenresTableViewController.m */,
 				5086580418F721FA00FA20E4 /* Images.xcassets */,
+				500CE64118F806D7000EFF8F /* DRPlaylistsTableViewController.h */,
+				500CE64218F806D7000EFF8F /* DRPlaylistsTableViewController.m */,
 			);
 			path = "Dr. Sounds";
 			sourceTree = "<group>";
@@ -495,7 +506,9 @@
 				50E8702018F715C600BD1385 /* DRFeatureCollectionViewCell.m in Sources */,
 				50E86FD318F6DCB600BD1385 /* main.m in Sources */,
 				50134D0918F735650071C9C1 /* DRReleasesFlowViewController.m in Sources */,
+				500CE64318F806D7000EFF8F /* DRPlaylistsTableViewController.m in Sources */,
 				50E8701318F7095900BD1385 /* DRGenre.m in Sources */,
+				500CE64618F806EC000EFF8F /* DRPlaylist.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -510,6 +523,7 @@
 				50E8701418F7095900BD1385 /* DRGenre.m in Sources */,
 				50E8700418F6E15800BD1385 /* DRDataSource.m in Sources */,
 				50E86FF518F6DCB600BD1385 /* Dr__SoundsTests.m in Sources */,
+				500CE64718F806EC000EFF8F /* DRPlaylist.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

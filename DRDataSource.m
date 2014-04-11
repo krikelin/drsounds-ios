@@ -50,6 +50,16 @@ static NSString *API_KEY = @"drsounds28";
     }
     return features;
 }
+- (NSArray *)playlistsForGenre:(DRGenre *)genre page:(NSInteger)page {
+    NSMutableArray *genres = [[NSMutableArray alloc] init];
+    NSDictionary *json = [self downloadJSON:[NSString stringWithFormat:@"http://sounds.aleros.webfactional.com/api/v1/playlist/?format=json&agenre=%@", [genre identifier]]];
+    NSArray *items = [json objectForKey:@"objects"];
+    for (NSInteger i = 0; i < [items count]; i++) {
+        DRGenre *genre = [[DRGenre alloc] initWithJSON:[items objectAtIndex:i]];
+        [genres addObject:genre];
+    }
+    return genres;
+}
 - (NSArray *)tracksForAlbum:(DRRelease *)release page:(NSInteger)page {
     NSMutableArray *tracks = [[NSMutableArray alloc] init];
     
